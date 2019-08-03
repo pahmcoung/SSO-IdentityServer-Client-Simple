@@ -19,7 +19,7 @@ namespace Api
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    options.Authority = "http://localhost.net:5002";
+                    options.Authority = "http://aitask.net:5002";
                     options.RequireHttpsMetadata = false;
 
                     options.Audience = "client_test_api_resource";
