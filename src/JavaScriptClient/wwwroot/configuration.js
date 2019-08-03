@@ -1,7 +1,7 @@
 /// <reference path="oidc-client.js" />
 // import { WebStorageStateStore } from './oidc-client.js'
 var configuration = {
-    authority: "http://aitask.net:5002",
+    authority: "http://localhost.net:5002",
     client_id: "client_tester",
     redirect_uri: "http://localhost:3000/signin_callback.html",
     response_type: "id_token token",
