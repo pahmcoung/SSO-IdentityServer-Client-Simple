@@ -1,0 +1,28 @@
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/bin/Debug/netcoreapp2.1/Api.deps.json
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/bin/Debug/netcoreapp2.1/Api.runtimeconfig.json
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/bin/Debug/netcoreapp2.1/Api.runtimeconfig.dev.json
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/bin/Debug/netcoreapp2.1/Api.dll
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/bin/Debug/netcoreapp2.1/Api.pdb
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/obj/Debug/netcoreapp2.1/Api.csprojAssemblyReference.cache
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/obj/Debug/netcoreapp2.1/Api.csproj.CoreCompileInputs.cache
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/obj/Debug/netcoreapp2.1/Api.RazorAssemblyInfo.cache
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/obj/Debug/netcoreapp2.1/Api.RazorAssemblyInfo.cs
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/obj/Debug/netcoreapp2.1/Api.AssemblyInfoInputs.cache
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/obj/Debug/netcoreapp2.1/Api.AssemblyInfo.cs
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/obj/Debug/netcoreapp2.1/Api.RazorTargetAssemblyInfo.cache
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/obj/Debug/netcoreapp2.1/Api.dll
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/obj/Debug/netcoreapp2.1/Api.pdb
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/bin/Debug/netcoreapp2.1/Api.deps.json
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/bin/Debug/netcoreapp2.1/Api.runtimeconfig.json
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/bin/Debug/netcoreapp2.1/Api.runtimeconfig.dev.json
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/bin/Debug/netcoreapp2.1/Api.dll
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/bin/Debug/netcoreapp2.1/Api.pdb
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.csprojAssemblyReference.cache
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.csproj.CoreCompileInputs.cache
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.RazorAssemblyInfo.cache
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.RazorAssemblyInfo.cs
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.AssemblyInfoInputs.cache
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.AssemblyInfo.cs
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.RazorTargetAssemblyInfo.cache
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.dll
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.pdb

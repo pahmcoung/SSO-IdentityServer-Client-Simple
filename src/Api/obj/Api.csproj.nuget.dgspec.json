@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/Api.csproj": {}
+  },
+  "projects": {
+    "/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/Api.csproj",
+        "projectName": "Api",
+        "projectPath": "/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/Api.csproj",
+        "packagesPath": "/Users/cuongpg/.nuget/packages/",
+        "outputPath": "/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/NuGet.Config",
+          "/Users/cuongpg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/./nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

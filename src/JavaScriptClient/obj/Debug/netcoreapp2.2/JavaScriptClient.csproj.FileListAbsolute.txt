@@ -1,0 +1,28 @@
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/bin/Debug/netcoreapp2.2/JavaScriptClient.deps.json
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/bin/Debug/netcoreapp2.2/JavaScriptClient.runtimeconfig.json
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/bin/Debug/netcoreapp2.2/JavaScriptClient.runtimeconfig.dev.json
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/bin/Debug/netcoreapp2.2/JavaScriptClient.dll
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/bin/Debug/netcoreapp2.2/JavaScriptClient.pdb
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.csprojAssemblyReference.cache
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.csproj.CoreCompileInputs.cache
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.RazorAssemblyInfo.cache
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.RazorAssemblyInfo.cs
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.AssemblyInfoInputs.cache
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.AssemblyInfo.cs
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.RazorTargetAssemblyInfo.cache
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.dll
+/Volumes/DATA/work/Topica/SSO/IdentityServer/IdentityServer4/samples/Quickstarts/9_Combined_AspId_and_EFStorage/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.pdb
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/bin/Debug/netcoreapp2.2/JavaScriptClient.deps.json
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/bin/Debug/netcoreapp2.2/JavaScriptClient.runtimeconfig.json
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/bin/Debug/netcoreapp2.2/JavaScriptClient.runtimeconfig.dev.json
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/bin/Debug/netcoreapp2.2/JavaScriptClient.dll
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/bin/Debug/netcoreapp2.2/JavaScriptClient.pdb
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.csprojAssemblyReference.cache
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.csproj.CoreCompileInputs.cache
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.RazorAssemblyInfo.cache
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.RazorAssemblyInfo.cs
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.AssemblyInfoInputs.cache
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.AssemblyInfo.cs
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.RazorTargetAssemblyInfo.cache
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.dll
+/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/JavaScriptClient/obj/Debug/netcoreapp2.2/JavaScriptClient.pdb
