@@ -22,13 +22,13 @@ namespace Api
                     /*
                      * the authorization host url (Identity Server host) that verify each client's request
                      */
-                    options.Authority = "";
+                    options.Authority = "http://aitask.net:5002";
                     options.RequireHttpsMetadata = false;
                     
                     /**
                      * api resource name check permission scope is allow or not
                      */
-                    options.Audience = "";
+                    options.Audience = "client_test_api_resource";
                 });
 
             services.AddCors(options =>

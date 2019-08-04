@@ -1,8 +1,6 @@
 ﻿/// <reference path="oidc-client.js" />
 
-import * as SSOController from "./sso-client-controller.js";
-
-SSOController.initial()
+var ssoClient = new SSOClient()
 function log() {
     document.getElementById('results').innerText = '';
     Array.prototype.forEach.call(arguments, function (msg) {
@@ -20,7 +18,7 @@ document.getElementById("api").addEventListener("click", api, false);
 document.getElementById("logout").addEventListener("click", logout, false);
 
 function login() {
-    SSOController.signin().then(function (user) {
+    ssoClient.signin().then(function (user) {
         if (user) {
             log("User logged in", user.profile);
         } else {
@@ -30,7 +28,7 @@ function login() {
 }
 
 function api() {
-    SSOController.getUser().then(function (user) {
+    ssoClient.getUser().then(function (user) {
         var url = "http://localhost:5001/identity";
 
         var xhr = new XMLHttpRequest();
@@ -57,16 +55,16 @@ function refreshTokenSilent() {
     //         removeUserInfo()
     //         login()
     //     });
-    SSOController.refreshTokenSilent();
+    ssoClient.refreshTokenSilent();
 }
 
 /**
  * remove user info from
  */
 function removeUserInfo() {
-    userManager.removeUser();
+    ssoClient.removeUser();
 }
 
 function logout() {
-    SSOController.logout();
+    ssoClient.logout();
 }
