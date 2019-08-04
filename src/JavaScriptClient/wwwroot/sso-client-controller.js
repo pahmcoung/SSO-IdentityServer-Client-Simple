@@ -4,19 +4,20 @@
  * You can view more detail oidc-client-js library at https://github.com/IdentityModel/oidc-client-js
  * author pahmcougn 
  */
+
 let defaultConfiguration = {
     /**
      * REQUIRED authority (string): The URL of the OIDC/OAuth2 provider.
      */
-    authority: "",
+    authority: "http://aitask.net:5002",
     /**
      * REQUIRED client_id (string): Your client application's identifier as registered with the OIDC/OAuth2 provider.
      */
-    client_id: "",
+    client_id: "client_tester",
     /**
      * REQUIRED redirect_uri (string): The redirect URI of your client application to receive a response from the OIDC/OAuth2 provider.
      */
-    redirect_uri: "",
+    redirect_uri: "http://localhost:3000/signin_callback.html",
     /**
      * REQUIRED
      * response_type (string, default: 'id_token'): The type of response desired from the OIDC/OAuth2 provider.
@@ -29,11 +30,11 @@ let defaultConfiguration = {
      * REQUIRED
      * scope (string, default: 'openid'): The scope being requested from the OIDC/OAuth2 provider.
      */
-    scope:"openid profile email offline_access",
+    scope:"openid profile email offline_access client_test_api_scope",
     /**
      * silent_redirect_uri (string): The URL for the page containing the code handling the refresh an new access token
      */
-    silent_redirect_uri: '',
+    silent_redirect_uri: 'http://localhost:3000/silent-refresh.html',
     /**
      * Storage object used to persist User for currently authenticated user
      */
@@ -59,7 +60,8 @@ var userManager = undefined
  */
 
 export function initial(clientConfiguration) {
-    userManager = new Oidc.UserManager(clientConfiguration || defaultConfiguration );
+    let config = {...defaultConfiguration,...clientConfiguration}
+    userManager = new Oidc.UserManager(config);
 }
 
 /**
