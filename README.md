@@ -21,7 +21,7 @@ Go each project's folder and run command
 
 If you want config to run in your site, you can edit some point to run 
 
-** Api **
+**Api**
 
 Edit file `Startup.js` with your configuration to Identity Server
 ```
@@ -41,7 +41,7 @@ services.AddAuthentication("Bearer")
                 });
 ```
 
-** JavaScriptClient **
+**JavaScriptClient**
 
 I have created file `sso-client-controller.js` in `wwwroot folder` to controll some basic action as sign in, logout , refresh token silent.You should call `initial` method with your configuration to Identity Server before call action login, logout,refresh token.
 
