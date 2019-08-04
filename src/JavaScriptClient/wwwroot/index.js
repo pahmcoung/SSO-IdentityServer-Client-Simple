@@ -1,7 +1,8 @@
 ﻿/// <reference path="oidc-client.js" />
 
-import * as SSOController from "./configuration.js";
+import * as SSOController from "./sso-client-controller.js";
 
+SSOController.initial()
 function log() {
     document.getElementById('results').innerText = '';
     Array.prototype.forEach.call(arguments, function (msg) {
