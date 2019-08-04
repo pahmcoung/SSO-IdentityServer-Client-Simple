@@ -19,9 +19,15 @@ namespace Api
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
+                    /*
+                     * the authorization host url (Identity Server host) that verify each client's request
+                     */
                     options.Authority = "http://localhost.net:5002";
                     options.RequireHttpsMetadata = false;
-
+                    
+                    /**
+                     * api resource name check permission scope is allow or not
+                     */
                     options.Audience = "client_test_api_resource";
                 });
 
@@ -42,11 +48,6 @@ namespace Api
             app.UseCors("default");
             app.UseAuthentication();
             app.UseMvc();
-        }
-        
-        public Startup(IHostingEnvironment  env)
-        {
-            Console.WriteLine("123");
         }
     }
 }
