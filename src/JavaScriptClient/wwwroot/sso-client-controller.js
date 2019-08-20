@@ -4,7 +4,7 @@ function SSOClient() {
         /**
          * REQUIRED authority (string): The URL of the OIDC/OAuth2 provider.
          */
-        authority: "http://aitask.net:5002",
+        authority: "http://localhost.net:5002",
         /**
          * REQUIRED client_id (string): Your client application's identifier as registered with the OIDC/OAuth2 provider.
          */
@@ -43,8 +43,9 @@ function SSOClient() {
         /**
          * silentRequestTimeout (number, default: 10000): Number of milliseconds to wait for the silent renew to return before assuming it has failed or timed out.
          */
-        silentRequestTimeout : 10000
-
+        silentRequestTimeout : 10000,
+        client_secret : 'K7gNU3sdo+OL0wNhqoVWhr3g6s1xYv72ol/pe/Unols='
+        // post_logout_redirect_uri : "http://localhost:3000/index.html"
     }
     this.userManager = new Oidc.UserManager(defaultConfig);
 }
@@ -91,6 +92,10 @@ SSOClient.prototype.signin = function () {
 
 SSOClient.prototype.signinRedirect = function () {
     return this.userManager.signinRedirect()
+}
+
+SSOClient.prototype.logout = function () {
+    return this.userManager.signoutRedirect();
 }
 
 SSOClient.prototype.signinRedirectCallback = function () {
