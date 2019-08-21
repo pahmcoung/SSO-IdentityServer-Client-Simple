@@ -48,7 +48,7 @@ I have created file `sso-client-controller.js` in `wwwroot folder` to controll s
 Example:
 ```
 SSOController.initial({
-    authority: "http://local.net:5002",
+    authority: "http://localhost:5002",
     client_id: "client_tester",
     redirect_uri: "http://localhost:3000/signin_callback.html",
     response_type: "id_token token",
