@@ -4,7 +4,7 @@ function SSOClient() {
         /**
          * REQUIRED authority (string): The URL of the OIDC/OAuth2 provider.
          */
-        authority: "http://localhost.net:5002",
+        authority: "http://localhost:5000",
         /**
          * REQUIRED client_id (string): Your client application's identifier as registered with the OIDC/OAuth2 provider.
          */

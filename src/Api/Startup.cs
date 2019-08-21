@@ -1,10 +1,10 @@
 ﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
-using System;
+using System.Security.Cryptography.X509Certificates;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Api
 {
@@ -15,22 +15,18 @@ namespace Api
             services.AddMvcCore()
                 .AddAuthorization()
                 .AddJsonFormatters();
-
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    /*
-                     * the authorization host url (Identity Server host) that verify each client's request
-                     */
-                    options.Authority = "http://aitask.net:5002";
-                    options.RequireHttpsMetadata = false;
-                    
-                    /**
-                     * api resource name check permission scope is allow or not
-                     */
-                    options.Audience = "client_test_api_resource";
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateAudience = true,
+                        ValidAudience = "client_test_api_resource",
+                        ValidateIssuer = false,
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new X509SecurityKey(new X509Certificate2("cert.pfx","Zaq123edc")),
+                    };
                 });
-
             services.AddCors(options =>
             {
                 // this defines a CORS policy called "default"
