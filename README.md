@@ -11,6 +11,7 @@ This project run by .NET Core framework used [oidc-client-js](https://github.com
 2. JavaScriptClient: A Javascript client allow user 
     - Sign in to Identity Server
     - Request to get authorize server api
+    - Refresh token in silient
     - logout from Identity Server
 
 # Install
@@ -28,19 +29,18 @@ Edit file `Startup.js` with your configuration to Identity Server
 services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    /*
-                     * the authorization host url (Identity Server host) that verify each client's request
-                     */
-                    options.Authority = "";
-                    options.RequireHttpsMetadata = false;
-                    
-                    /**
-                     * api resource name check permission scope is allow or not
-                     */
-                    options.Audience = "";
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateAudience = true,
+                        ValidAudience = "client_test_api_resource",
+                        ValidateIssuer = false,
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new X509SecurityKey(new X509Certificate2("cert.pfx","Zaq123edc")),
+                    };
                 });
 ```
-
+I created an file certificate and use it to verify on API server, and verify some other info in jwt token that API server
+received token
 **JavaScriptClient**
 
 I have created file `sso-client-controller.js` in `wwwroot folder` to controll some basic action as sign in, logout , refresh token silent.You should call `initial` method with your configuration to Identity Server before call action login, logout,refresh token.
@@ -48,7 +48,7 @@ I have created file `sso-client-controller.js` in `wwwroot folder` to controll s
 Example:
 ```
 SSOController.initial({
-    authority: "http://local.net:5002",
+    authority: "http://localhost:5002",
     client_id: "client_tester",
     redirect_uri: "http://localhost:3000/signin_callback.html",
     response_type: "id_token token",
