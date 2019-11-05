@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/Api.csproj",
+    "projectUniqueName": "/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/Api.csproj",
     "projectName": "Api",
-    "projectPath": "/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/Api.csproj",
-    "outputPath": "/Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/",
+    "projectPath": "/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/Api.csproj",
+    "outputPath": "/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -29,6 +29,10 @@
   "frameworks": {
     "netcoreapp2.1": {
       "dependencies": {
+        "IdentityModel": {
+          "target": "Package",
+          "version": "[4.0.0, )"
+        },
         "Microsoft.AspNetCore.App": {
           "suppressParent": "All",
           "target": "Package",

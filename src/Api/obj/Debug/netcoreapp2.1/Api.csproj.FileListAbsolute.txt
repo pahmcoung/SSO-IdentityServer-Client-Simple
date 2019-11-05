@@ -26,3 +26,17 @@
 /Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.RazorTargetAssemblyInfo.cache
 /Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.dll
 /Volumes/DATA/work/untitled folder/SSO-IdentityServer-Client/src/Api/obj/Debug/netcoreapp2.1/Api.pdb
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/bin/Debug/netcoreapp2.1/Api.deps.json
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/bin/Debug/netcoreapp2.1/Api.runtimeconfig.json
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/bin/Debug/netcoreapp2.1/Api.runtimeconfig.dev.json
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/bin/Debug/netcoreapp2.1/Api.dll
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/bin/Debug/netcoreapp2.1/Api.pdb
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/obj/Debug/netcoreapp2.1/Api.csprojAssemblyReference.cache
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/obj/Debug/netcoreapp2.1/Api.csproj.CoreCompileInputs.cache
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/obj/Debug/netcoreapp2.1/Api.RazorAssemblyInfo.cache
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/obj/Debug/netcoreapp2.1/Api.RazorAssemblyInfo.cs
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/obj/Debug/netcoreapp2.1/Api.AssemblyInfoInputs.cache
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/obj/Debug/netcoreapp2.1/Api.AssemblyInfo.cs
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/obj/Debug/netcoreapp2.1/Api.RazorTargetAssemblyInfo.cache
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/obj/Debug/netcoreapp2.1/Api.dll
+/Users/phamcuong/Desktop/data/example/SSO-IdentityServer-Client-Simple/src/Api/obj/Debug/netcoreapp2.1/Api.pdb

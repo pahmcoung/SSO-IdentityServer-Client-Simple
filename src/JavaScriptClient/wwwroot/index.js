@@ -25,6 +25,26 @@ function login() {
             log("User not logged in");
         }
     })
+    ssoClient.addUserSignedOut(function() {
+        ssoClient.removeUserInfo()
+        console.log('User is logouted')
+        log('User is logouted')
+        //
+        ssoClient.signin().then(function (user) {
+            if (user) {
+                log("User logged in", user.profile);
+            } else {
+                log("User not logged in");
+            }
+        })
+    })
+}
+
+function getUserInfo() {
+    ssoClient.getUser().then(function (user) {
+    }).catch(function (reason) {
+        console.log('test')
+    })
 }
 
 function api() {
@@ -55,16 +75,24 @@ function refreshTokenSilent() {
     //         removeUserInfo()
     //         login()
     //     });
-    ssoClient.refreshTokenSilent();
+    ssoClient.refreshTokenSilent().then().catch(function(error) {
+        removeUserInfo()
+        login()
+    });
 }
 
 /**
  * remove user info from
  */
 function removeUserInfo() {
-    ssoClient.removeUser();
+    ssoClient.removeUserInfo();
 }
 
 function logout() {
-    ssoClient.logout();
+    ssoClient.refreshTokenSilent().then(function (user) {
+        ssoClient.logout();
+    }).catch(function(error) {
+        removeUserInfo()
+        login()
+    });
 }
